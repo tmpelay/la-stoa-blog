@@ -180,9 +180,16 @@ header {
   height: 92vh;
 }
 
+.bl-section {
+  display: flex;
+  padding: 110px 0 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .la-container {
   margin: 0px auto;
-  width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,17 +219,17 @@ header {
   box-sizing: border-box;
   flex-direction: column;
   background-color: var(--secondary-foreground);
-  padding: 30px 30px 80px;
+  padding: 40px 30px 40px;
   height: 520px;
+  width: 300px;
   cursor: pointer;
   transition: 0.3s;
   border-color: var(--secondary-foreground);
 }
 
 .ac-container:hover {
+  padding-top: 30px;
   background-color: var(--primary-foreground);
-  border-top: 10px solid var(--primary-foreground);
-  border-bottom: 10px solid var(--primary-foreground);
 }
 
 .ac-container img {
