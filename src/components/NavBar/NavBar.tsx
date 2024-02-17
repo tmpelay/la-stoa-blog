@@ -3,10 +3,10 @@ function NavBar() {
     <nav className="nv-container">
       <div className="nv-linksContainer">
         <ul className="nv-links">
-          <li><a href="/">HOME</a><div className="nv-borderBottom light" /></li>
-          <li><a href="/blog">BLOG</a><div className="nv-borderBottom" /></li>
-          <li><a href="/account">ACCOUNT</a><div className="nv-borderBottom" /></li>
-          <li><a href="/community">COMMUNITY</a><div className="nv-borderBottom" /></li>
+          <li><a className="nv-link" href="/">HOME</a><div className="nv-borderBottom" /></li>
+          <li><a className="nv-link" href="/blog">BLOG</a><div className="nv-borderBottom" /></li>
+          <li><a className="nv-link" href="/account">ACCOUNT</a><div className="nv-borderBottom" /></li>
+          <li><a className="nv-link" href="/community">COMMUNITY</a><div className="nv-borderBottom" /></li>
         </ul>
       </div>
       <div className="nv-inputBox">
