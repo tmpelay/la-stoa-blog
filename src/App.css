@@ -220,16 +220,16 @@ header {
   box-sizing: border-box;
   flex-direction: column;
   background-color: var(--secondary-foreground);
-  padding: 40px 30px 40px;
+  padding: 30px 30px 40px;
   height: 520px;
-  width: 300px;
+  width: 320px;
   cursor: pointer;
   transition: 0.3s;
   border-color: var(--secondary-foreground);
 }
 
 .ac-container:hover {
-  padding-top: 30px;
+  padding-top: 20px;
   background-color: var(--primary-foreground);
 }
 
@@ -331,6 +331,33 @@ header {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 70vw;
   color: var(--primary-foreground);
 }
+
+.pt-title {
+  color: var(--primary-foreground);
+  font-size: 36px;
+  font-weight: 10;
+  margin-bottom: 24px;
+}
+
+.pt-line {
+  color: var(--primary-foreground);
+  border-color: var(--primary-foreground);
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.pt-subtitle {
+  font-size: 32px;
+  font-weight: 10;
+  margin-bottom: 24px;
+}
+
+.pt-text {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+

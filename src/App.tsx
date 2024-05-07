@@ -24,7 +24,6 @@ function App() {
         {
           blogPosts.map((post) => {
             const path = `/articles/${post["trimTitle"]}`
-            console.log(path)
             return (
               <Route key={post["id"]} path={path} element={<Post post={post} />} />
             )
